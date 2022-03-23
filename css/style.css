@@ -5,3 +5,50 @@
     box-sizing: border-box;
 
 }
+/* common  */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* intestazione  */
+header{
+    height: 80px;
+    background-color: #3161e0;
+}
+.container {
+    max-width: 1000px;
+    height: 80px;
+    margin: auto;
+    background-color: lightgrey;
+
+}
+.logo {
+    height: 80px;
+    width: 10%;
+    background-color: aquamarine;
+    float: left;
+
+}
+.nav {
+    height: 80px;
+    float: left;
+    width: 80%;
+    text-align: center;
+    background-color: lightcoral;
+}
+.nav li {
+    display: inline-block;
+}
+.nav li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.accedi {
+    width: 10%;
+    height: 80px;
+    float: left;
+    background-color: aqua;
+    text-decoration: none;
+}
