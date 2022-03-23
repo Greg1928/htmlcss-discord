@@ -14,20 +14,20 @@
 /* intestazione  */
 header{
     height: 80px;
-    background-color: #3161e0;
+    background-color: #2a5ee8;
 }
 .container {
     max-width: 1000px;
     height: 80px;
     margin: auto;
-    background-color: lightgrey;
+    background-color: #2a5ee8;
 
 }
 .logo {
     height: 80px;
-    width: 10%;
-    background-color: aquamarine;
+    width: 13%;
     float: left;
+    margin-top: 20px;
 
 }
 .nav {
@@ -35,22 +35,31 @@ header{
     float: left;
     width: 80%;
     text-align: center;
-    background-color: lightcoral;
+    background-color: #2a5ee8;
 }
 .nav li {
     display: inline-block;
+    margin-top: 28px;
 }
 .nav li a {
     text-decoration: none;
-    color: inherit;
+}
+a{
+    margin-right: 20px;
+    color: white;
+
 }
 
 .accedi {
-    width: 10%;
-    height: 80px;
+    width: 7%;
+    height: 35px;
     float: left;
-    background-color: aqua;
+    background-color: white;
     text-decoration: none;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 100px;
+    margin-top: 20px;
 }
 /* hero  */
 .hero-img {
@@ -64,6 +73,13 @@ h1{
     text-align: center;
     padding-top: 100px;
     font-size: 40px;
+    color: white;
+}
+p{
+    text-align: center;
+    max-width: 500px;
+    margin-left: 520px;
+    margin-top: 60px;
     color: white;
 }
 
