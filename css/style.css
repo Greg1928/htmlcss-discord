@@ -52,3 +52,18 @@ header{
     background-color: aqua;
     text-decoration: none;
 }
+/* hero  */
+.hero-img {
+    background-image: url("../img/jumbo.png");
+    height: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+h1{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 40px;
+    color: white;
+}
+
