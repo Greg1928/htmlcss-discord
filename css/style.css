@@ -12,7 +12,10 @@
     clear: both;
 }
 .bck-color{
-    background-color: lightgrey;
+    background-color: #f6f6f6;
+}
+.bck-color-2{
+    background-color: #23272a;
 }
 button{
     border: white;
@@ -92,8 +95,14 @@ h2{
     
     
 }
+h4{
+    font-size: 40px;
+    color: #8ea1e1;
+}
 .btn{
-   padding: 20px 570px 150px;
+   padding-top: 20px;
+   padding-bottom: 150px;
+   text-align: center;
 }
 .hero-button1 {
     padding: 13px;
@@ -117,7 +126,7 @@ h2{
     margin-left: 1em;
 }
 
-.hero-button1 a, .hero-button2 a{
+.hero-button1 a, .hero-button2 a, .btn-2 a{
     text-decoration: none;
     color: inherit;
 }
@@ -161,4 +170,60 @@ h2{
 }
 .img-sez-4{
     text-align: center;
+}
+h3{
+    background-image: url("../img/stars.svg");;
+    font-size: 24px;
+    display: inline-block;
+    padding: 30px 40px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100%;
+}
+.btn-2{
+    margin: auto;
+    max-width: 10em;
+    text-decoration: none;
+    padding: 13px;
+    background-color: #8ea1e1;
+    border-radius: 20px;
+    color: white;
+}
+.col-1{
+    float: left;
+    width: 30%;
+}
+.col-2, .col-3, .col-4, .col-5{
+    float: left;
+    width: 17.5%;
+}
+.footer-top{
+    min-height: 450px;
+    padding-top: 100px;
+}
+.footer-top p{
+    color: #8ea1e1;
+
+}
+.footer-top a, .btn-footer a {
+    text-decoration: none;
+    color: white;
+}
+.footer-top li{
+    list-style-type: none;
+    padding-top: 5px;
+}
+#logo-footer{
+    float: left;
+    margin-top: 20px;
+}
+.btn-footer{
+    margin-top: 20px;
+    float: right;
+    max-width: 10em;
+    text-decoration: none;
+    padding: 13px;
+    background-color: #8ea1e1;
+    border-radius: 20px;
+    color: white;
 }
