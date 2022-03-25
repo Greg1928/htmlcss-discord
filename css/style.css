@@ -6,10 +6,17 @@
 
 }
 /* common  */
-.clearfix::after {
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
+}
+.bck-color{
+    background-color: lightgrey;
+}
+button{
+    border: white;
+    background-color: whi;
 }
 /* intestazione  */
 header{
@@ -17,7 +24,7 @@ header{
     background-color: #2a5ee8;
 }
 .container {
-    max-width: 1000px;
+    max-width: 1080px;
     height: 80px;
     margin: auto;
     background-color: #2a5ee8;
@@ -42,12 +49,9 @@ header{
     margin-top: 28px;
 }
 .nav li a {
-    text-decoration: none;
-}
-a{
     margin-right: 20px;
     color: white;
-
+    text-decoration: none;
 }
 
 .accedi {
@@ -62,24 +66,92 @@ a{
     margin-top: 20px;
 }
 /* hero  */
-.hero-img {
+.hero{
     background-image: url("../img/jumbo.png");
-    height: 550px;
     background-size: cover;
-    background-repeat: no-repeat;
-
 }
+
+
 h1{
     text-align: center;
     padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;  
+    padding-bottom: 20px;
+    color: white;
+    font-size: 50px;
+}
+h2{
     font-size: 40px;
-    color: white;
 }
-p{
+#hero-text{
+    
     text-align: center;
-    max-width: 500px;
-    margin-left: 520px;
-    margin-top: 60px;
     color: white;
+    padding: 0 500px;
+    
+    
 }
+.btn{
+   padding: 20px 570px 150px;
+}
+.hero-button1 {
+    padding: 13px;
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.hero-button2 {
+    padding: 13px;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 1em;
+}
+
+.hero-button1 a, .hero-button2 a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.main-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-bottom: 150px;
+}
+.img-sez{
+    max-width: 50%;
+    float: left;
+    margin-right: 10%;
+    padding-top: 100px;
+
+}
+.text-sez{
+    max-width: 30%;
+    float: right;
+    margin-left: 10%;
+    text-align: left;
+    padding-top: 125px;
+}
+.small-txt{
+    margin-top: 20px;
+
+}
+
+.invert1{
+    float: left;
+    margin-left: 0;
+}
+.invert2{
+    float:right
+}
+
 
